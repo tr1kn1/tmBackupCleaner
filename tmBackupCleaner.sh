@@ -13,7 +13,7 @@ echo -e "Start deleting older backups, this can take a lot of time."
 
 tmutil listbackups | while read backup; do
     if [[ "$backup" != "$latestBackup" ]]; then
-        # Remove 'echo' on the next line only when the output of the dry run is correct!
+        # Remove 'echo' on the next line only, when the output of the dry run is correct!
         echo tmutil delete -d "$hardDriveMountPoint" -t "$backup"
     fi
 done
