@@ -5,7 +5,7 @@ A simple script to delete all Time Machine Backups, except the latest.
 ## How does it work?
 Time Machine is macOS' built-in backup utility. Normally it just works out of the box, but in some cases it refuses to delete old backups in order to make place for a new one.
 
-If this should happen, this script can help: It deletes all backups except the latest one. To achieve this, it uses the tmutil command provided by Apple.
+If this should happen, this script can help: It deletes all backups except the latest backup. To achieve this, it uses the `tmutil` command provided by Apple&reg;.
 
 This script can also be used when just the latest backup and not a whole history is needed.
 
