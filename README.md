@@ -11,7 +11,7 @@ This script can also be used when just the latest backup and not a whole history
 
 ## Usage
 Perform a run of this script and if the output is correct!
-Only then: Remove the echo from the corresponding line. The deletion can take up to several days, depending on the number and size of the backups.
+Only then: Remove the `echo from the corresponding line. The deletion can take up to several days, depending on the number and size of the backups.
 
 ## Disclaimer
 
