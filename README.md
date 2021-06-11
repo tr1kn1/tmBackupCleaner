@@ -9,6 +9,13 @@ If this should happen, this script can help: It deletes all backups except the l
 
 This script can also be used when just the latest backup and not a whole history is needed.
 
+### Where does it work?
+It has been tested on:
+- macOS 10.15 Catalina
+- macOS 11 Big Sur
+
+But *should* run on older releases as well.
+
 ## Usage
 Perform a run of this script and if the output is correct!
 Only then: Remove the `echo` from the corresponding line. The deletion can take up to several days, depending on the number and size of the backups.
