@@ -1,5 +1,5 @@
 #!/bin/bash
-pathToLatest=$(tmutil latestbackup)
+pathToLatest=$(tmutil latestbackup -m)
 backupDir=`dirname $pathToLatest`
 latestBackup=`basename $pathToLatest`
 hardDriveMountPoint=`echo $backupDir | sed 's/\/Backups\.backupdb.*//g'`
