@@ -13,6 +13,7 @@ This script can also be used when just the latest backup and not a whole history
 It has been tested on:
 - macOS 10.15 Catalina
 - macOS 11 Big Sur
+- macOS 12 Monterey
 
 But *should* run on older releases as well.
 
